@@ -51,3 +51,6 @@ The extends keyword is used once, and the parent interfaces are declared in a co
 HATEOAS is an extra level upon REST and is used to present information about a REST API to a client, allowing for a better understanding of the API without the need to bring up the specification or documentation. This is done by including links in a returned response and using only these links to further communicate with the server."
 - Session server security vs JWT Token (client) https://dev.to/thecodearcher/what-really-is-the-difference-between-session-and-token-based-authentication-2o39
 - https://medium.com/@sherryhsu/session-vs-token-based-authentication-11a6c5ac45e4
+
+
+#test commit travis
