@@ -43,9 +43,13 @@ public class UserServiceImpl implements UserService, UserDetailsService {
 		user.setActive(true);
 		HashSet<Role> roles = new HashSet<Role>();
 		Role role = new Role();
+		
 		role.setRole("ADMIN");
+		
 		roles.add(role);
+		
 		user.setRoles(roles);
+		
 		userRepository.save(user);
 	}
 	
