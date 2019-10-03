@@ -1,8 +1,8 @@
 addons:
   sonarcloud:
-    organization: "sanogotech"
+    organization: "frivalain-meti"
     token:
-      secure: "40a7da271b785f757f93fd9f2dffc6428297882a" # encrypted value of your token
+      secure: "40c0ad2f1b8867c943aeda61389e19e7ff132ea3" # encrypted value of your token
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
